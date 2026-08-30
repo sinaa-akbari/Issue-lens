@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "check:db": "tsx src/check-db.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "migrate": "tsx src/migrate.ts"
   },
   "author": "",
   "license": "ISC",
