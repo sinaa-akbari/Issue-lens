@@ -23,5 +23,6 @@ export const env = {
     host: required('REDIS_HOST'),
     port: Number(required('REDIS_PORT')),
   },
+  rawPayloadDir: process.env.RAW_PAYLOAD_DIR ?? "./data/raw",
   githubToken: process.env.GITHUB_TOKEN ?? '',
 };

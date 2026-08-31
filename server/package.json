@@ -4,7 +4,8 @@
   "scripts": {
     "check:db": "tsx src/check-db.ts",
     "typecheck": "tsc --noEmit",
-    "migrate": "tsx src/migrate.ts"
+    "migrate": "tsx src/migrate.ts",
+    "fetch:page": "tsx src/fetch-page.ts"
   },
   "author": "",
   "license": "ISC",
