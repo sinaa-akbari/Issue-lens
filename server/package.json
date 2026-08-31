@@ -6,12 +6,14 @@
     "typecheck": "tsc --noEmit",
     "migrate": "tsx src/migrate.ts",
     "fetch:page": "tsx src/fetch-page.ts",
-    "ingest:page": "tsx src/ingest-page.ts"
+    "ingest:page": "tsx src/ingest-page.ts",
+    "ask": "tsx src/ask.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^17.4.2",
+    "openai": "^7.8.0",
     "pg": "^8.23.0",
     "zod": "^4.5.4"
   },

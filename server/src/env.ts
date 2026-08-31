@@ -23,6 +23,11 @@ export const env = {
     host: required('REDIS_HOST'),
     port: Number(required('REDIS_PORT')),
   },
+  llm: {
+    baseUrl: required("LLM_BASE_URL"),
+    apiKey: required("LLM_API_KEY"),
+    model: required("LLM_MODEL"),
+  },
   rawPayloadDir: process.env.RAW_PAYLOAD_DIR ?? "./data/raw",
   githubToken: process.env.GITHUB_TOKEN ?? '',
 };
