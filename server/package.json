@@ -5,13 +5,15 @@
     "check:db": "tsx src/check-db.ts",
     "typecheck": "tsc --noEmit",
     "migrate": "tsx src/migrate.ts",
-    "fetch:page": "tsx src/fetch-page.ts"
+    "fetch:page": "tsx src/fetch-page.ts",
+    "ingest:page": "tsx src/ingest-page.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^17.4.2",
-    "pg": "^8.23.0"
+    "pg": "^8.23.0",
+    "zod": "^4.5.4"
   },
   "devDependencies": {
     "@types/node": "^26.4.0",
